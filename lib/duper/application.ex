@@ -11,6 +11,7 @@ defmodule Duper.Application do
       Duper.Results,
       {Duper.PathFinder, "."},
       Duper.WorkerSupervisor,
+      {Duper.Gatherer, 1}
       # Starts a worker by calling: Duper.Worker.start_link(arg)
       # {Duper.Worker, arg}
     ]
