@@ -24,3 +24,9 @@ duper-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+.vscode/*
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
