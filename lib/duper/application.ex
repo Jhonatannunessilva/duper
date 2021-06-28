@@ -9,6 +9,7 @@ defmodule Duper.Application do
   def start(_type, _args) do
     children = [
       Duper.Results,
+      {Duper.PathFinder, "."},
       # Starts a worker by calling: Duper.Worker.start_link(arg)
       # {Duper.Worker, arg}
     ]
